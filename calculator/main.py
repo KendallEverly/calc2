@@ -28,3 +28,4 @@ class Calculator:
         else:
             self.result = value_a / value_b
             return self.result
+
