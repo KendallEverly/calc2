@@ -25,7 +25,5 @@ class Calculator:
         """test for an exception of 0"""
         if value_b==0:
             raise Exception(ZeroDivisionError)
-        else:
-            self.result = value_a / value_b
-            return self.result
+
 
