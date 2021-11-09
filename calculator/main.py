@@ -1,12 +1,8 @@
 """ This is the increment function"""
-
-
 def test_exception(value_b):
     """test for an exception of 0"""
     if value_b==0:
         raise Exception(ZeroDivisionError)
-
-
 class Calculator:
     """ This is the Calculator class"""
     result = 0
