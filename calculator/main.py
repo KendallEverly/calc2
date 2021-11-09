@@ -1,12 +1,10 @@
 """ This is the increment function"""
 class Calculator:
     """ This is the Calculator class"""
-
     result = 0
     def get_result(self):
         """ Get Result of Calculation"""
         return self.result
-
     def add_number(self, value_a):
         """ adds number to result"""
         self.result = self.result + value_a
@@ -26,7 +24,7 @@ class Calculator:
 def test_exception(self, value_a, value_b):
     """test for an exception of 0"""
     if value_b==0:
-        raise Exception("Cannot divide by zero")
+        raise Exception(ZeroDivisionError)
     else:
         self.result = value_a / value_b
         return self.result
