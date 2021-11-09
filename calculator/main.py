@@ -24,6 +24,7 @@ class Calculator:
         self.result = value_a / value_b
         return self.result
 def test_exception(self, value_a, value_b):
+    """test for an exception of 0"""
     if value_b==0:
         raise Exception("Cannot divide by zero")
     else:
