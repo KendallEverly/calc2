@@ -1,28 +1,32 @@
+"""calculator and imports"""
 from calc.addition import Addition
 from calc.subtraction import Subtraction
 from calc.multiplication import Multiplication
 from calc.division import Division
-
-""" This is the increment function"""
 class Calculator:
-    """ This is the Calculator class"""
+    """calc buttona"""
     history =[]
     @staticmethod
     def get_result_of_first_calculation_added_to_history():
-        return Calculator.history(0).getresult()
+        """get result of first calc"""
+        return Calculator.history
     @staticmethod
     def clear_history():
+        """clear history"""
         Calculator.history.clear()
         return True
     @staticmethod
     def history_count():
+        """count history"""
         return len(Calculator.history)
     @staticmethod
     def add_calculation_to_history(calculation):
+        """add calc to history"""
         Calculator.history.append(calculation)
         return True
     @staticmethod
     def get_result_of_calculation_added_to_history():
+        """get result of calc"""
         return Calculator.history[-1].getresult()
     @staticmethod
     def add_number(value_a,value_b):
