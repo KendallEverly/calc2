@@ -1,5 +1,6 @@
 # Calculator Project Setup
 [![Build Status](https://app.travis-ci.com/KendallEverly/calc2.svg?branch=main)](https://app.travis-ci.com/KendallEverly/calc2)
+[![Build Status](https://app.travis-ci.com/KendallEverly/calc2.svg?branch=calc_part2)](https://app.travis-ci.com/KendallEverly/calc2)
 Run Pip Install
 pip install -r requirements.txt
 
