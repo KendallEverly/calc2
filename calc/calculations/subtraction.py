@@ -1,5 +1,5 @@
 """module subtract"""
-from calc.calculation import Calculation
+from calc.calculations.calculation import Calculation
 class Subtraction(Calculation):
     """subtraction"""
     def getresult(self):

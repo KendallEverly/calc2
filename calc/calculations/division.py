@@ -1,5 +1,5 @@
 """module division"""
-from calc.calculation import Calculation
+from calc.calculations.calculation import Calculation
 class Division(Calculation):
     """division"""
     def getresult(self):

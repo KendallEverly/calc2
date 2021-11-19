@@ -1,5 +1,5 @@
 """module multiply"""
-from calc.calculation import Calculation
+from calc.calculations.calculation import Calculation
 class Multiplication(Calculation):
     """multiplication"""
     def getresult(self):
