@@ -1,13 +1,13 @@
-"""Addition Class"""
-from calc.calculations.calculation import Calculation
-from calculator.main import Calculator
-import pprint
-class Addition(Calculation):
-    """ calculation addition class"""
-def test_calculator_add():
-    """Testing the Add function of the calculator"""
-    assert Calculator.add_number(1,2)==3
-    assert Calculator.add_number(2,2)==4
-    assert Calculator.history_count()==2
-    assert Calculator.get_result_of_calculation_added_to_history()==4
-    pprint.pp(Calculator.history)
+"""Load CVS file using pandas"""
+import pandas as pd
+data = pd.read_csv (r'C:\Users\kenda\PycharmProjects\calc2\datafile\data.csv')
+"""print the datafile"""
+print (data)
+"""label values"""
+value_a = data.at[0, 'a']
+value_b = data.at[0, 'b']
+"""operations"""
+sum_column = data["a"] + data["b"]
+data["Addition"] = sum_column
+"""print result"""
+print(data)

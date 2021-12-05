@@ -1,9 +1,13 @@
-"""Subtraction Class"""
-from calc.calculations.calculation import Calculation
-from calculator.main import Calculator
-class Subtraction(Calculation):
-    """subtraction calculation object"""
-    def test_calculator_subtract(self):
-        """Testing the subtract method of the calculator"""
-        assert Calculator.subtract_number(1, 2) == -1
-        assert Calculator.subtract_number(2, 2) == 0
+"""Load CVS file using pandas"""
+import pandas as pd
+data = pd.read_csv (r'C:\Users\kenda\PycharmProjects\calc2\datafile\data.csv')
+"""print the datafile"""
+print (data)
+"""label values"""
+value_a = data.at[0, 'a']
+value_b = data.at[0, 'b']
+"""operations"""
+sub_column = data["a"] - data["b"]
+data["Subtraction"] = sub_column
+"""print result"""
+print(data)

@@ -4,7 +4,7 @@ from calc.calculations.subtraction import Subtraction
 from calc.calculations.multiplication import Multiplication
 from calc.calculations.division import Division
 class Calculator:
-    """calc buttona"""
+    """calc button"""
     history =[]
     @staticmethod
     def get_result_of_first_calculation_added_to_history():
