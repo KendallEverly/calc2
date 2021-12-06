@@ -1,5 +1,9 @@
 timestamp,input filename,row num,operation,result
-2021_12_05-06:42:17_PM,C:\Users\kenda\PycharmProjects\calc2\datafile\data.csv,1,Addition,3
-2021_12_05-06:42:17_PM,C:\Users\kenda\PycharmProjects\calc2\datafile\data.csv,2,Addition,7
-2021_12_05-06:46:27_PM,C:\Users\kenda\PycharmProjects\calc2\datafile\data.csv,1,Addition,3
-2021_12_05-06:46:27_PM,C:\Users\kenda\PycharmProjects\calc2\datafile\data.csv,2,Addition,7
+2021_12_05-07:52:48_PM,C:\Users\kenda\PycharmProjects\calc2\datafile\data.csv,1,Division,inf
+2021_12_05-07:52:48_PM,C:\Users\kenda\PycharmProjects\calc2\datafile\data.csv,2,Division,0.75
+2021_12_05-07:53:10_PM,C:\Users\kenda\PycharmProjects\calc2\datafile\data.csv,1,Division,inf
+2021_12_05-07:53:10_PM,C:\Users\kenda\PycharmProjects\calc2\datafile\data.csv,2,Division,0.75
+2021_12_05-07:53:14_PM,C:\Users\kenda\PycharmProjects\calc2\datafile\data.csv,1,Division,inf
+2021_12_05-07:53:14_PM,C:\Users\kenda\PycharmProjects\calc2\datafile\data.csv,2,Division,0.75
+2021_12_05-07:53:16_PM,C:\Users\kenda\PycharmProjects\calc2\datafile\data.csv,1,Division,inf
+2021_12_05-07:53:16_PM,C:\Users\kenda\PycharmProjects\calc2\datafile\data.csv,2,Division,0.75
